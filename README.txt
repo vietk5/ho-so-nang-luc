@@ -7,7 +7,7 @@ Cau truc:
   Ho_so_nang_luc_ANT_VI-EN.pdf   -> ban PDF cho nut "Tai PDF"
 
 Mo xem: giai nen, mo index.html bang Chrome/Edge.
-Dang len web: tao repo GitHub > upload toan bo thu muc nay > Settings > Pages > Branch: main / (root) > Save.
+Dang len web: tao repo GitHub > upload toan bo noi dung thu muc nay > Settings > Pages > Branch: main / (root) > Save.
 
 Dieu khien:
   - Keo goc trang / nut mui ten / phim <- ->  : lat trang
@@ -15,5 +15,5 @@ Dieu khien:
   - Nut "Toan man hinh"                        : sach to toi da
   - Ma QR va the ban do o trang cuoi bam duoc (mo cyberant.vn / Google Maps)
 
-Thay mot anh: tim anh trong thu muc img/, ghi de file moi CUNG TEN (giu nguyen ti le khung de khong bi meo).
-Sua chu: mo index.html bang Notepad++/VS Code, tim (Ctrl+F) dung cau can sua va thay - luu y sua ca cau tieng Viet va tieng Anh.
+Thay mot anh: ghi de file moi CUNG TEN trong thu muc img/ (giu ti le khung de khong bi meo).
+Sua chu: mo index.html bang Notepad++/VS Code, Ctrl+F tim dung cau can sua va thay (sua ca tieng Viet va tieng Anh).

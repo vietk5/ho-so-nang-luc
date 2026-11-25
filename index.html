@@ -213,6 +213,7 @@
   src: url(fonts/be-vietnam-pro-latin-800-normal.woff2) format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
+.page{font-family:'Be Vietnam Pro',sans-serif;color:#1E2430;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 :root{--o:#E8762C;--o2:#F7A45C;--od:#C85A16;--navy:#101C33;--navy2:#1B2C4D;--cream:#FFF5EC;--ink:#1E2430;--mute:#6B7280}
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -558,8 +559,12 @@ a.qr{text-decoration:none;color:inherit;display:block;width:170px}
 .tl:before{z-index:0}
 .tl-row{position:relative;z-index:1}
 .tl-dot{position:relative;z-index:2}
+/* process steps: all cards white like 01 */
+.step:nth-child(even){background:#fff!important;color:var(--ink)!important;border:1px solid #F1DDCB!important}
+.step:nth-child(even) b{color:var(--navy)!important}
+.step:nth-child(even) p.en{color:var(--mute)!important}
 
-.page{font-family:'Be Vietnam Pro',sans-serif;color:#1E2430;-webkit-print-color-adjust:exact;print-color-adjust:exact;page-break-after:auto}
+.page{page-break-after:auto}
 
 #book .pg{overflow:hidden;background:#fff}
 #book .pgs{width:794px;height:1123px;transform:scale(var(--s,0.5));transform-origin:0 0}
